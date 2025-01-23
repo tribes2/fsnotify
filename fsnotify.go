@@ -422,7 +422,7 @@ var debug = func() bool {
 
 var defaultOpts = withOpts{
 	bufsize: 65536, // 64K
-	op:      Create | Write | Remove | Rename | Chmod,
+	op:      Create | Write | Remove | Rename | Chmod | xUnportableCloseWrite,
 }
 
 func getOptions(opts ...addOpt) withOpts {
