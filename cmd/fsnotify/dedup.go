@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fsnotify/fsnotify"
+	"github.com/tribes2/fsnotify"
 )
 
 // Depending on the system, a single "write" can generate many Write events; for
